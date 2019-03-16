@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
-variable=input()
+variable=input("Mete un numero anda: ")
 
-if variable>15 and variable<18:
-    print ("llmame romario nena")
+if variable==14:
+    print ("llamame romario nena")
+elif variable>15 and variable<18:
+    print("numero OOOK")
 else:
     print ("numero no es correcto")
